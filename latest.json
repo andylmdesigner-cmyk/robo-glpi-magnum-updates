@@ -1,10 +1,10 @@
 {
-  "version": "4.0.0-alpha.4",
-  "notes": "Atualização do Robô GLPI Magnum. Consulte as notas da versão.",
+  "version": "4.0.0-alpha.5",
+  "notes": "Corrige a seleção da entidade CSC e a parada entity_unavailable no menu MAGNUM TIRES.\n\nDestino padrão: MAGNUM TIRES > SUPORTE MAGNUM > CSC.\nPerfil de acesso: Cliente.\n\nO robô abre o seletor de entidades, expande Suporte Magnum pela seta e seleciona CSC. Confere entidade e perfil antes de preencher e antes de enviar. O caminho continua personalizável.\n\nDepois de atualizar:\n1. Feche o navegador da tentativa anterior.\n2. Confira entidade e perfil em Configurações.\n3. Gere uma NOVA revisão; revisões antigas com o destino incorreto não serão reaproveitadas.\n4. Execute o robô e acompanhe as etapas.\n\nLocalização, observadores, tipos de despesa e modelos pessoais são preservados. Se houver envio incerto no Histórico, confira o chamado no GLPI antes de repetir.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSWxtN2EvR3dndDhVbnNTc3VDU2xmVUxUVlBpeE5nQ3hsbGtYMldVM2hOR1pkeVd3cjgyczByV3pSWVdjSjZOTCtndzZwV2tvdFFBdDdXRjlET2s1cElTSmJwSWQ0bkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTcwNzkzCWZpbGU6Um9ibyBHTFBJIFRyZWluYW1lbnRvXzQuMC4wLWFscGhhLjRfeDY0LXNldHVwLmV4ZQpNUXp0M0daZFdTcEl4Tmtqc3gwV04vdFgvN1g3Y2N1Qis1bDRwTWZkVXloVjFWRWRtbzN5S2xRNXFPYXU4bnZBem5uVEQwenRRd21TLzZhZnBsUXpDUT09Cg==",
-      "url": "https://github.com/andylmdesigner-cmyk/robo-glpi-magnum-updates/releases/download/v4.0.0-alpha.4/Robo-GLPI-Magnum-4.0.0-alpha.4-Windows-x64-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSWxtN2EvR3dndDRPUFM2Sm9KZW9vZHFVZ0NxM1pVam8xSlZVeFE5dDBIY1FzRnpJR0x4M2x4T0JnVUdoeGdxM1k5bXpieFVreWxjVGZEaUNvVDhIRjNkYzBvK0VFSWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTc5MzcyCWZpbGU6Um9ibyBHTFBJIFRyZWluYW1lbnRvXzQuMC4wLWFscGhhLjVfeDY0LXNldHVwLmV4ZQpEeXJQT09GSGJlaUNPU2p1Tk1mTlVReG50Z2crNGlUWTVRZFJ4QU8rRTFkL0JFZ1NMZUpscTAxY3Y0c0V0cGVNUlRMbW9JdmR5VlpmREw0bkRHOFVCZz09Cg==",
+      "url": "https://github.com/andylmdesigner-cmyk/robo-glpi-magnum-updates/releases/download/v4.0.0-alpha.5/Robo-GLPI-Magnum-4.0.0-alpha.5-Windows-x64-Setup.exe"
     }
   }
 }
