@@ -1,0 +1,10 @@
+{
+  "version": "4.0.0-alpha.4",
+  "notes": "Atualização do Robô GLPI Magnum. Consulte as notas da versão.",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSWxtN2EvR3dndDhVbnNTc3VDU2xmVUxUVlBpeE5nQ3hsbGtYMldVM2hOR1pkeVd3cjgyczByV3pSWVdjSjZOTCtndzZwV2tvdFFBdDdXRjlET2s1cElTSmJwSWQ0bkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTcwNzkzCWZpbGU6Um9ibyBHTFBJIFRyZWluYW1lbnRvXzQuMC4wLWFscGhhLjRfeDY0LXNldHVwLmV4ZQpNUXp0M0daZFdTcEl4Tmtqc3gwV04vdFgvN1g3Y2N1Qis1bDRwTWZkVXloVjFWRWRtbzN5S2xRNXFPYXU4bnZBem5uVEQwenRRd21TLzZhZnBsUXpDUT09Cg==",
+      "url": "https://github.com/andylmdesigner-cmyk/robo-glpi-magnum-updates/releases/download/v4.0.0-alpha.4/Robo-GLPI-Magnum-4.0.0-alpha.4-Windows-x64-Setup.exe"
+    }
+  }
+}
