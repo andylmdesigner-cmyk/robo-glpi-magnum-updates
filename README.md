@@ -1,6 +1,6 @@
 # Robô GLPI Magnum — atualizações
 
-[Baixar 4.0.0-alpha.9 para Windows x64](https://github.com/andylmdesigner-cmyk/robo-glpi-magnum-updates/releases/download/v4.0.0-alpha.9/Robo-GLPI-Magnum-4.0.0-alpha.9-Windows-x64-Setup.exe).
+[Baixar 4.0.0-alpha.10 para Windows x64](https://github.com/andylmdesigner-cmyk/robo-glpi-magnum-updates/releases/download/v4.0.0-alpha.10/Robo-GLPI-Magnum-4.0.0-alpha.10-Windows-x64-Setup.exe).
 
 Primeira instalação manual. Depois, ao abrir, o aplicativo consulta novas versões e mostra um aviso. Baixar e instalar exige sua confirmação; você pode escolher Agora não. Consulta manual em Sistema e suporte.
 
