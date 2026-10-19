@@ -1,10 +1,10 @@
 {
-  "version": "4.0.0-alpha.8",
-  "notes": "Corrige a seleção de categorias no menu hierárquico do GLPI, onde o nome aparece precedido do símbolo ».\n\nO robô reconhece a apresentação indentada e os caminhos completos disponíveis no menu, ignora grupos e opções desabilitadas e confere o valor do campo depois do clique. Se houver mais de uma opção correspondente, interrompe com uma orientação para revisar o caminho.\n\nPreserva login salvo, seleção da entidade CSC, localização, observadores e as conferências antes do envio. Após atualizar, feche o navegador da tentativa anterior, prepare uma nova revisão e teste novamente.",
+  "version": "4.0.0-alpha.9",
+  "notes": "Corrige a seleção da localização pelo caminho completo e o travamento quando o GLPI atualiza a lista de opções.\n\nMelhora a seleção de observadores, preserva as instruções que a categoria acrescenta à descrição e confere os campos, o PDF e os obrigatórios antes do envio. Erros de preenchimento e upload passam a indicar o ponto que precisa de conferência. Mantém a proteção contra repetição quando o resultado do envio é incerto.\n\nApós atualizar, feche o navegador da tentativa anterior e prepare uma nova revisão. As conferências foram testadas com controles reais do GLPI em servidor local; o teste na conta da empresa continua necessário.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSWxtN2EvR3dndDdpQk9kaGhwRnFqODRkY1lrODU1TXJqWkRNVDVLNGlYNUwrcHFTOGhXV2ovVThXK2ZOOER5eHR2RlZnVlZHb2VXalo2NURYWEZ1VjRDclM1L1pSU2dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDExMzI1CWZpbGU6Um9ibyBHTFBJIFRyZWluYW1lbnRvXzQuMC4wLWFscGhhLjhfeDY0LXNldHVwLmV4ZQpROXV2TkFldkRHRHU3R3lRSUg0b2p2bGVzY1ZhcUNtc0ovSWZLOFRvQ2lwNkhvcisvV2Y1ZTBGZllJV2FmVlRjd1JCMmt2aXA5OEduT2oyNWs0RHZBUT09Cg==",
-      "url": "https://github.com/andylmdesigner-cmyk/robo-glpi-magnum-updates/releases/download/v4.0.0-alpha.8/Robo-GLPI-Magnum-4.0.0-alpha.8-Windows-x64-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSWxtN2EvR3dndHhSTlNabmkydWFBcHFuKy9Kbmo3ajZ5LzBOVjdyWjI1cG9vKytxV29vZUtXejNWelBvVmFYZllxRk9rcXllTmo5NGRHcEhXTERnK0Rxa1ZMditxZ1E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDE1NzE5CWZpbGU6Um9ibyBHTFBJIFRyZWluYW1lbnRvXzQuMC4wLWFscGhhLjlfeDY0LXNldHVwLmV4ZQpRUzg3NGtSVE9qSFNPdkNCeHVpZ0Y2aE9ZMTUrcEN4NjcwdGF3cmtzOWZhMmhTcy9VemdWNFJ1ZUhzOFk5YjVQVitTdDZwU2ZsQjF3TllHZ2NOT1NCZz09Cg==",
+      "url": "https://github.com/andylmdesigner-cmyk/robo-glpi-magnum-updates/releases/download/v4.0.0-alpha.9/Robo-GLPI-Magnum-4.0.0-alpha.9-Windows-x64-Setup.exe"
     }
   }
 }
